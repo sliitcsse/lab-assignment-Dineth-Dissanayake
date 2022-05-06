@@ -1,18 +1,20 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "koja Lab_01",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
-  "author": "Dineth_D4",
+  "author": "fbg",
   "license": "ISC",
   "dependencies": {
     "@koa/router": "^10.1.1",
+    "cors": "^2.8.5",
     "koa": "^2.13.4",
-    "koa-bodyparser": "^4.3.0",
-    "nodemon": "^2.0.16",
-    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
